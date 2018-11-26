@@ -2,6 +2,7 @@ require "swgem_wrapper/version"
 require 'swgem'
 require 'faraday'
 require 'json'
+require_relative 'swgem_wrapper/script_generator'
 
 module SwgemWrapper
 end
