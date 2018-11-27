@@ -1,7 +1,7 @@
 require 'simplecov'
 SimpleCov.start do
   add_filter '/spec/'
-  minimum_coverage 80
+  minimum_coverage 75
 end
 require "bundler/setup"
 require "swgem_wrapper"
